@@ -1,0 +1,51 @@
+
+.login{
+    border: 10px solid black;
+    font-size: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.button{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+
+}
+
+
+.nav-item{
+    padding: 5px;
+    margin-top: 2%;
+    background-color: lightskyblue;
+        
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+}
+
+#todo{
+    color: midnightblue;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+}
+
+.check{
+    color:black;
+}
+

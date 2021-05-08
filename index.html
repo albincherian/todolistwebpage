@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="./Pics/todo.jpg">
+
+      
+
+      <form action="./todo.html" class="login" onsubmit="return!! (userValidation() & passwordValidation())">
+        <div class="login">
+            <h2>TODO Login</h2>
+        <div class="login-cont">
+            <label for="Username">Username</label>
+            <input type="text" placeholder="username" id="user" required>
+            <label for="err" id="err"></label>
+        </div>
+        <br>
+
+        <div class="login-cont">
+            <label for="password">Password</label>
+            <span id="str"></span>
+            <input type="password" placeholder="password" id="pass" required >
+            <label for="err1" id="err1"></label>
+        
+        </div>
+        <br>
+        
+        <div class="button">
+            <button id="login-button" style="background-color: aqua;">Login</button>    
+        </div>
+    </div>
+
+    </form>
+
+    
+
+    <script src="./login.js"></script>
+    
+      
+</body>
+</html>
